@@ -1,16 +1,17 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+a = 10
+b = 'Привет!'
+c = 15
+name = input("Введите ваше имя  ")
+age = int(input("Введите ваш возраст  "))
+week_day = input("Какой сегодня день недели?  ")
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyC!')
+print(a)
+print(b)
+print(c)
+print(name)
+print(age)
+print(type(age))
+print(week_day)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
