@@ -13,5 +13,7 @@ if earn_sum > overhead_sum:
     print(f"Фирма работает с прибылью! Рентабельность выручки {profit / earn_sum}")
     employers_amount = int(input("Введите число сотрудников в вашей фирме  "))
     print(f"Прибыль фирмы в расчете на одного сотружника {profit / employers_amount} руб.")
+elif earn_sum == overhead_sum:
+    print("Финансовый результат = 0")
 else:
     print("Фирма работает с убытком!")
